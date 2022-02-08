@@ -1,4 +1,6 @@
 import classes from "./contact-form.module.css";
+import { useState } from 'react'
+
 
 const ContactForm = (props) => {
   const [enteredEmail, setEnteredEmail] = useState("");
